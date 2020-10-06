@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script> function WriteToFile(passForm) { 
+ 
+    set fso = CreateObject("Scripting.FileSystemObject");  
+    set s   = fso.CreateTextFile("lol.txt", True); 
+ 
+    var firstName = document.getElementById('FirstName'); 
+    var lastName  = document.getElementById('lastName'); 
+ 
+    s.writeline("_replyto :" + _Replyto); 
+    s.writeline("message :" + Message); 
+ 
+    s.writeline("-----------------------------"); 
+    s.Close(); 
+ }</script>
+    <meta charset="UTF-8">
+  <link rel="g.py">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  </head>
+<header class="v-header container">
+  <div class="fullscreen-video-wrap">
+    <video controls autoplay="true">
+    <source src="p.mp4" type="video/mp4"></video>
+  </div>
+  <div class="header-overlay"></div>
+  <div class="header-content text-md-center">
+    <h1><strong>Titto</strong></h1>
+    <div><p class="mbr-text mbr-fonts-style display-7"><strong>
+      <br>Q:Age A:15
+      <br>Q:Albino A: ye
+      <br>Q:On atleast 5 drugs? A: Yes 
+      <br>Q: Height A: 6'2 (188cm)
+      <br>Q: What? A: Yeah
+      <br>Q: Voice Changer? A: Nah
+      <br>Q: From? A: Ohio
+      <br>Q: Sleep? A: Every 3-4 days</strong></p>
+      <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="https://instagram.com/connorsundermeier" target="_blank"><span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn"></span>Instagram</a>  <a class="btn btn-primary display-4" href="https://open.spotify.com/artist/5L0LMbvcWNGI7NyOpd6Wb7?si=34ChMiNORyOgnLqMepdj-g" target="_blank">Spotify<br></a>   <a class="btn btn-warning display-4" href="https://snapchat.com/add/frayedshirt" target="_blank"><span class="socicon socicon-snapchat mbr-iconfont mbr-iconfont-btn"></span>Snapchat</a></div>  </div>
+	
+	
+	<p> I really am trying to quit drugs and stuff even if it might seem like it
+	it really is just a struggle. Like I know they are bad for me. Even though
+	I've made a lot of progress I feel like people just belittle it because it 
+	seems as if I've made none at all.
+  -Titto </p>
+
+  <h1 style="font-size: 80px;color:yellow">Tweet on my Twitter</h1>
+  <h2> https://twitter.com/connorronner </h2>
+  <section class="section section-a">
+    <div class="container">
+    </div>
+  </section>
+  <!-- modify this form HTML and place wherever you want your form -->
+  
+  <form onSubmit="lol.txt">
+    <label>
+      Your name:
+      <input type="text" name="_replyto" id="_Replyto">
+    </label>
+    <label>
+      Your tweet:
+      <textarea name="message" id="Message"></textarea>
+    </label>
+  
+    <!-- your other form fields go here -->
+  
+    <button type="submit">Send</button>
+  </form>
+  <p>cock n ball</p>
+  </header>
+<section class="section section-a">
+  <div class="container">
+  </div>
+</section>
+</html>
